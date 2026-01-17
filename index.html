@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vedantic Systems LLP | IT Consulting & Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="top-bar-left">
+                <span><i class="icon-location"></i> Giridih, Jharkhand, India</span>
+                <span><i class="icon-mail"></i> priyankapriya5729@gmail.com</span>
+            </div>
+            <div class="top-bar-right">
+                <div class="lang-selector">
+                    <button class="active" data-lang="en">EN</button>
+                    <button data-lang="hi">हिंदी</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="main-header">
+        <div class="container">
+            <a href="#home" class="logo">
+                <img src="logo.svg" alt="Vedantic Systems" class="logo-img">
+                <span class="llp-badge">LLP</span>
+            </a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#home" class="active" data-translate="navHome">Home</a></li>
+                    <li><a href="#services" data-translate="navServices">Services</a></li>
+                    <li><a href="#about" data-translate="navAbout">About Us</a></li>
+                    <li><a href="#why-us" data-translate="navWhyUs">Why Choose Us</a></li>
+                    <li><a href="#contact" data-translate="navContact">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="#contact" class="btn btn-primary" data-translate="getFreeConsultation">Get Free Consultation</a>
+            <button class="mobile-menu-btn" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <div class="grid-pattern"></div>
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="trust-badge">
+                    <span class="badge-icon">✓</span>
+                    <span data-translate="heroTag">Registered LLP | DIPP Recognized</span>
+                </div>
+                <h1 data-translate="heroTitle">Transforming Businesses Through <span class="highlight">Intelligent IT Solutions</span></h1>
+                <p data-translate="heroDesc">We deliver cutting-edge IT consulting, software implementation, and business automation solutions that drive growth, efficiency, and digital transformation for enterprises across India.</p>
+                <div class="hero-cta">
+                    <a href="#services" class="btn btn-primary btn-lg">
+                        <span data-translate="exploreServices">Explore Services</span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                    <a href="#contact" class="btn btn-outline btn-lg" data-translate="scheduleCall">Schedule a Call</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">10+</span>
+                        <span class="stat-label" data-translate="projectsDelivered">Projects Delivered</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" id="happyClientsCount">0+</span>
+                        <span class="stat-label" data-translate="happyClients">Happy Clients</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">24/7</span>
+                        <span class="stat-label" data-translate="supportAvailable">Support Available</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="visual-card main-card">
+                    <div class="card-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                    </div>
+                    <div class="code-block">
+                        <span class="code-line"><span class="keyword">const</span> <span class="var">solution</span> = {</span>
+                        <span class="code-line">  <span class="prop">client</span>: <span class="string">"Your Business"</span>,</span>
+                        <span class="code-line">  <span class="prop">innovation</span>: <span class="bool">true</span>,</span>
+                        <span class="code-line">  <span class="prop">growth</span>: <span class="string">"exponential"</span></span>
+                        <span class="code-line">};</span>
+                    </div>
+                </div>
+                <div class="floating-element elem-1">
+                    <span class="elem-icon">🚀</span>
+                    <span>Fast Deployment</span>
+                </div>
+                <div class="floating-element elem-2">
+                    <span class="elem-icon">🔒</span>
+                    <span>Secure & Reliable</span>
+                </div>
+                <div class="floating-element elem-3">
+                    <span class="elem-icon">📊</span>
+                    <span>Data-Driven</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag" data-translate="servicesTag">Our Expertise</span>
+                <h2 data-translate="servicesTitle">Comprehensive IT Solutions <br>Tailored for Your Success</h2>
+                <p data-translate="servicesDesc">From consulting to implementation, we provide end-to-end services that transform your business operations</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card featured">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                        </svg>
+                    </div>
+                    <h3>IT Consulting & Advisory</h3>
+                    <p>Strategic technology guidance to align your IT infrastructure with business goals. We analyze, plan, and recommend solutions that maximize ROI.</p>
+                    <ul class="service-features">
+                        <li>Technology Assessment</li>
+                        <li>Digital Strategy Planning</li>
+                        <li>IT Roadmap Development</li>
+                    </ul>
+                    <a href="#contact" class="service-link">Learn More →</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/>
+                        </svg>
+                    </div>
+                    <h3>Software Implementation</h3>
+                    <p>Seamless deployment of enterprise software solutions with minimal disruption to your operations.</p>
+                    <ul class="service-features">
+                        <li>ERP Implementation</li>
+                        <li>CRM Solutions</li>
+                        <li>Custom Software</li>
+                    </ul>
+                    <a href="#contact" class="service-link">Learn More →</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+                        </svg>
+                    </div>
+                    <h3>IT Managed Services</h3>
+                    <p>End-to-end IT management so you can focus on your core business activities.</p>
+                    <ul class="service-features">
+                        <li>24/7 Monitoring</li>
+                        <li>Maintenance & Support</li>
+                        <li>Disaster Recovery</li>
+                    </ul>
+                    <a href="#contact" class="service-link">Learn More →</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
+                        </svg>
+                    </div>
+                    <h3>IT Training & Development</h3>
+                    <p>Empower your team with the skills they need to leverage technology effectively.</p>
+                    <ul class="service-features">
+                        <li>Corporate Training</li>
+                        <li>Skill Development</li>
+                        <li>Certification Programs</li>
+                    </ul>
+                    <a href="#contact" class="service-link">Learn More →</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/>
+                        </svg>
+                    </div>
+                    <h3>Business Automation</h3>
+                    <p>Streamline operations with intelligent automation that reduces costs and increases efficiency.</p>
+                    <ul class="service-features">
+                        <li>Process Automation</li>
+                        <li>Workflow Optimization</li>
+                        <li>RPA Solutions</li>
+                    </ul>
+                    <a href="#contact" class="service-link">Learn More →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section id="why-us" class="why-us">
+        <div class="container">
+            <div class="why-us-grid">
+                <div class="why-us-content">
+                    <span class="section-tag" data-translate="whyUsTag">Why Vedantic Systems</span>
+                    <h2 data-translate="whyUsTitle">Built on Trust, Driven by Excellence</h2>
+                    <p data-translate="whyUsDesc">As a registered Limited Liability Partnership, we bring transparency, accountability, and unwavering commitment to every project we undertake.</p>
+                    
+                    <div class="trust-points">
+                        <div class="trust-point">
+                            <div class="trust-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                </svg>
+                            </div>
+                            <div class="trust-text">
+                                <h4>Legally Registered LLP</h4>
+                                <p>Incorporated under the LLP Act with full legal compliance and government recognition.</p>
+                            </div>
+                        </div>
+                        <div class="trust-point">
+                            <div class="trust-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
+                                </svg>
+                            </div>
+                            <div class="trust-text">
+                                <h4>Expert Partnership</h4>
+                                <p>Led by dedicated professionals with equal stake and commitment to your success.</p>
+                            </div>
+                        </div>
+                        <div class="trust-point">
+                            <div class="trust-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                </svg>
+                            </div>
+                            <div class="trust-text">
+                                <h4>Transparent Pricing</h4>
+                                <p>No hidden costs. Clear proposals with detailed breakdowns and milestone-based payments.</p>
+                            </div>
+                        </div>
+                        <div class="trust-point">
+                            <div class="trust-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+                                </svg>
+                            </div>
+                            <div class="trust-text">
+                                <h4>Data Security Assured</h4>
+                                <p>Your business data is protected with enterprise-grade security measures and NDA compliance.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="why-us-visual">
+                    <div class="credentials-card">
+                        <div class="credential">
+                            <span class="credential-label">Registration</span>
+                            <span class="credential-value">LLP Registered</span>
+                        </div>
+                        <div class="credential">
+                            <span class="credential-label">Location</span>
+                            <span class="credential-value">Jharkhand, India</span>
+                        </div>
+                        <div class="credential">
+                            <span class="credential-label">Partners</span>
+                            <span class="credential-value">2 Designated Partners</span>
+                        </div>
+                        <div class="credential">
+                            <span class="credential-label">Focus</span>
+                            <span class="credential-value">IT Services & Consulting</span>
+                        </div>
+                    </div>
+                    <div class="commitment-badge">
+                        <div class="badge-inner">
+                            <span class="badge-percent">100%</span>
+                            <span class="badge-text">Commitment to Quality</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header center">
+                <span class="section-tag" data-translate="aboutTag">About Us</span>
+                <h2 data-translate="aboutTitle">Meet the Team Behind Vedantic Systems</h2>
+                <p data-translate="aboutDesc">A partnership built on shared vision, complementary skills, and unwavering dedication to client success</p>
+            </div>
+            <div class="partners-grid">
+                <div class="partner-card">
+                    <div class="partner-image">
+                        <div class="partner-initial">PK</div>
+                    </div>
+                    <div class="partner-info">
+                        <h3>Priyanka Kumari</h3>
+                        <span class="partner-role">Designated Partner</span>
+                        <p>Strategic leader with expertise in business development and client relations. Ensures every project aligns with client objectives and delivers measurable outcomes.</p>
+                        <div class="partner-focus">
+                            <span>Business Strategy</span>
+                            <span>Client Relations</span>
+                            <span>Operations</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="partner-card">
+                    <div class="partner-image">
+                        <div class="partner-initial">IR</div>
+                    </div>
+                    <div class="partner-info">
+                        <h3>Indradeo Rajak</h3>
+                        <span class="partner-role">Designated Partner</span>
+                        <p>Technology expert driving innovation and technical excellence. Leads solution architecture and ensures delivery of robust, scalable IT solutions.</p>
+                        <div class="partner-focus">
+                            <span>Technology</span>
+                            <span>Solution Design</span>
+                            <span>Innovation</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="company-info">
+                <div class="info-card">
+                    <h4>Our Office</h4>
+                    <p>Village Barwabad, P.O.-Mandro<br>Via-Kharagdiha, Tehsil-Khorimahua<br>Dist.-Giridih, Jharkhand 815314</p>
+                </div>
+                <div class="info-card">
+                    <h4>Business Hours</h4>
+                    <p>Monday - Saturday<br>9:00 AM - 6:00 PM IST<br>Support: 24/7 Available</p>
+                </div>
+                <div class="info-card">
+                    <h4>Accounting Year</h4>
+                    <p>April 1st - March 31st<br>Transparent Financial Reports<br>Regular Client Updates</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header center">
+                <span class="section-tag" data-translate="testimonialsTag">Client Stories</span>
+                <h2 data-translate="testimonialsTitle">Trusted by Businesses Across Industries</h2>
+            </div>
+            
+            <!-- Carousel Container -->
+            <div class="testimonial-carousel">
+                <!-- Left Arrow -->
+                <button class="carousel-btn carousel-btn-left" aria-label="Previous testimonial">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M15 18l-6-6 6-6"/>
+                    </svg>
+                </button>
+                
+                <!-- Carousel Track -->
+                <div class="carousel-viewport">
+                    <div class="carousel-track" id="testimonialTrack">
+                        <!-- Testimonials will be loaded dynamically -->
+                    </div>
+                </div>
+                
+                <!-- Right Arrow -->
+                <button class="carousel-btn carousel-btn-right" aria-label="Next testimonial">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M9 18l6-6-6-6"/>
+                    </svg>
+                </button>
+            </div>
+            
+            <!-- Carousel Dots -->
+            <div class="carousel-dots"></div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2 data-translate="ctaTitle">Ready to Transform Your Business?</h2>
+                <p data-translate="ctaDesc">Let's discuss how Vedantic Systems can help you achieve your technology goals. Schedule a free consultation today.</p>
+                <div class="cta-buttons">
+                    <a href="#contact" class="btn btn-white btn-lg" data-translate="getFreeConsultation">Get Free Consultation</a>
+                    <a href="tel:+917209054944" class="btn btn-outline-white btn-lg">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+                        </svg>
+                        <span data-translate="callUsNow">Call Us Now</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <span class="section-tag" data-translate="contactTag">Get In Touch</span>
+                    <h2 data-translate="contactTitle">Let's Start a Conversation</h2>
+                    <p data-translate="contactDesc">Have a project in mind? We'd love to hear about it. Fill out the form and our team will get back to you within 24 hours.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                                    <path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Visit Us</h4>
+                                <p>Village Barwabad, P.O.-Mandro, Via-Kharagdiha<br>Tehsil-Khorimahua, Dist.-Giridih<br>Jharkhand 815314, India</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Email Us</h4>
+                                <p>contact@vedanticsystems.com<br>support@vedanticsystems.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Call Us</h4>
+                                <p>+91&nbsp;72090&nbsp;54944<br>+91&nbsp;93196&nbsp;60552</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <!-- ============================================
+                         TO CHANGE EMAIL: Replace 'contact@vedanticsystems.com' 
+                         in the form action below with your email address
+                         ============================================ -->
+                    <form class="contact-form" id="contactForm" 
+                          action="https://formsubmit.co/priyankapriya5729@gmail.com" 
+                          method="POST">
+                        <!-- FormSubmit Configuration -->
+                        <input type="hidden" name="_subject" value="New Inquiry from Vedantic Systems Website">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_template" value="table">
+                        <input type="hidden" name="_next" value="thank-you.html">
+                        
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required placeholder="Enter your name">
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required placeholder="your@email.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" placeholder="+91 XXXXX XXXXX">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Service Interested In</label>
+                            <select id="service" name="service">
+                                <option value="">Select a service</option>
+                                <option value="consulting">IT Consulting & Advisory</option>
+                                <option value="software">Software Implementation</option>
+                                <option value="infrastructure">IT Infrastructure Planning</option>
+                                <option value="training">IT Training & Development</option>
+                                <option value="automation">Business Automation</option>
+                                <option value="managed">IT Managed Services</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Project Details *</label>
+                            <textarea id="message" name="message" rows="4" required placeholder="Tell us about your project or requirements..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-lg btn-block">
+                            <span data-translate="sendMessage">Send Message</span>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo footer-logo">
+                        <img src="logo.svg" alt="Vedantic Systems" class="logo-img logo-img-light">
+                        <span class="llp-badge">LLP</span>
+                    </div>
+                    <p>Empowering businesses through innovative IT solutions. Your trusted partner for digital transformation.</p>
+                    <div class="social-links">
+                        <a href="https://in.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="social-link">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                        </a>
+                        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="social-link">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">IT Consulting</a></li>
+                        <li><a href="#services">Software Solutions</a></li>
+                        <li><a href="#services">Infrastructure</a></li>
+                        <li><a href="#services">Training</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Site Map</a></li>
+                        <li><a href="#">Disclaimer</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 Vedantic Systems LLP. All Rights Reserved.</p>
+                <p>Registered Office: Village Barwabad, Giridih, Jharkhand 815314</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

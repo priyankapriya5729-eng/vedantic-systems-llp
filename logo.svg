@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 45" width="280" height="45">
+  <!-- V Shape - Clean stylized V -->
+  <path d="M3 0 L15 0 L24 36 L33 0 L45 0 L30 45 L18 45 Z" fill="#1a365d"/>
+  
+  <!-- Orange Triangle Accent -->
+  <polygon points="32,0 44,0 38,12" fill="#d96a29"/>
+  
+  <!-- VEDANTIC Text -->
+  <text x="55" y="26" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#1a365d" letter-spacing="2">VEDANTIC</text>
+  
+  <!-- SYSTEMS Text with wide letter spacing -->
+  <text x="55" y="42" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" fill="#1a365d" letter-spacing="5">SYSTEMS</text>
+</svg>

@@ -1,0 +1,43 @@
+[debug] [2026-01-17T11:12:06.904Z] ----------------------------------------------------------------------
+[debug] [2026-01-17T11:12:06.906Z] Command:       /opt/homebrew/Cellar/node/21.6.1/bin/node /opt/homebrew/bin/firebase init hosting
+[debug] [2026-01-17T11:12:06.907Z] CLI Version:   15.3.1
+[debug] [2026-01-17T11:12:06.907Z] Platform:      darwin
+[debug] [2026-01-17T11:12:06.907Z] Node Version:  v21.6.1
+[debug] [2026-01-17T11:12:06.907Z] Time:          Sat Jan 17 2026 16:42:06 GMT+0530 (India Standard Time)
+[debug] [2026-01-17T11:12:06.907Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/chandradeokumarrajak/Documents/VEDANTIC_LLP/company-website
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] 
+[debug] [2026-01-17T11:12:08.147Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-01-17T11:12:08.147Z] > authorizing via signed-in user (priyankapriya5729@gmail.com)
+[debug] [2026-01-17T11:12:08.147Z] Checked if tokens are valid: true, expires at: 1768651847620
+[debug] [2026-01-17T11:12:08.147Z] Checked if tokens are valid: true, expires at: 1768651847620
+[debug] [2026-01-17T11:12:08.148Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/vedantic-systems-llp [none]
+[debug] [2026-01-17T11:12:09.152Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/vedantic-systems-llp 403
+[debug] [2026-01-17T11:12:09.152Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/vedantic-systems-llp {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2026-01-17T11:12:09.153Z] Request to https://firebase.googleapis.com/v1beta1/projects/vedantic-systems-llp had HTTP Error: 403, The caller does not have permission
+[debug] [2026-01-17T11:12:09.421Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/vedantic-systems-llp had HTTP Error: 403, The caller does not have permission
+    at responseToError (/opt/homebrew/lib/node_modules/firebase-tools/lib/responseToError.js:53:12)
+    at RetryOperation._fn (/opt/homebrew/lib/node_modules/firebase-tools/lib/apiv2.js:320:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project vedantic-systems-llp. Please make sure the project exists and your account has permission to access it.
